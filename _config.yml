@@ -1,0 +1,38 @@
+# GitHub Pages Configuration for Filtrade Website
+
+# Site Settings
+title: Filtrade - Industrial Filtration Excellence
+description: Premium hydraulic oil filtration systems, moisture sensors, and comprehensive filtration solutions engineered for optimal performance and reliability.
+url: "" # Add your custom domain here if you have one
+baseurl: "" # Leave empty if using custom domain or root of github.io
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude these files from the site
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Include these files in the site
+include:
+  - .htaccess
+
+# Permalink style
+permalink: pretty
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+

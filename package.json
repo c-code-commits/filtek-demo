@@ -1,0 +1,37 @@
+{
+  "name": "filtrade-website",
+  "version": "1.0.0",
+  "description": "Professional website for Filtrade Industrial Filtration products and solutions",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8000 -o",
+    "dev": "npx http-server . -p 8000",
+    "lint:html": "npx htmlhint *.html",
+    "lint:css": "npx stylelint css/**/*.css",
+    "format": "npx prettier --write \"**/*.{html,css,js,json,md}\"",
+    "validate": "npm run lint:html && npm run lint:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/filtrade-website.git"
+  },
+  "keywords": [
+    "filtration",
+    "hydraulic",
+    "industrial",
+    "oil",
+    "purification",
+    "moisture-sensor",
+    "filtrade"
+  ],
+  "author": "Filtrade",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/yourusername/filtrade-website/issues"
+  },
+  "homepage": "https://github.com/yourusername/filtrade-website#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
+
+
