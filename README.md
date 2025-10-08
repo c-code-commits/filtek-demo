@@ -1,2 +1,0 @@
-# filtek-demo
-Filtek demo 
