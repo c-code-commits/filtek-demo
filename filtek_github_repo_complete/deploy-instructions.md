@@ -1,0 +1,1 @@
+Deploy instructions: publish docs/ on GitHub Pages, or connect to Netlify and set env vars for SMTP.
