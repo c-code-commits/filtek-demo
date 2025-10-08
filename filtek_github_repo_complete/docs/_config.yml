@@ -1,6 +1,0 @@
-title: "Filtek (India) Pvt Ltd"
-description: "Oil Filtration & Monitoring Solutions"
-theme: null
-markdown: kramdown
-plugins: []
-exclude: [ "node_modules", "netlify", "package.json", "package-lock.json", "README.md", "deploy-instructions.md" ]
